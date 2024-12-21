@@ -16,21 +16,21 @@ sudo apt-get update
 apt install screen
 ```
 - Downlad inichain file
-  ```bash
-  wget https://github.com/Project-InitVerse/ini-miner/releases/download/v1.0.0/iniminer-linux-x64
-  ```
-  - Give permission to the file
-    ```bash
-    chmod +x iniminer-linux-x64
-    ```
-    # Create a new screen session
-    ```bash
-    screen -S Inichain
-    ```
-    ## Launch the InitVerse miner
-    ```bash
-    ./iniminer-linux-x64 --pool stratum+tcp://<YOUR_WALLET_ADDRESS>.Worker001@pool-core-testnet.inichain.com:32672
-    ```
+```bash
+wget https://github.com/Project-InitVerse/ini-miner/releases/download/v1.0.0/iniminer-linux-x64
+```
+- Give permission to the file
+```bash
+chmod +x iniminer-linux-x64
+```
+# Create a new screen session
+```bash
+screen -S Inichain
+```
+## Launch the InitVerse miner
+```bash
+./iniminer-linux-x64 --pool stratum+tcp://<YOUR_WALLET_ADDRESS>.Worker001@pool-core-testnet.inichain.com:32672
+```
 ![image](https://github.com/user-attachments/assets/1203a7c2-b5fa-4fb8-b352-f20619a190ad)
 # Leave the screen
 `CTRL+A+D`
