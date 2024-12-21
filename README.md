@@ -24,6 +24,7 @@ wget https://github.com/Project-InitVerse/ini-miner/releases/download/v1.0.0/ini
 chmod +x iniminer-linux-x64
 ```
 # Create a new screen session
+Do not use screen command for PC & Laptop, those who will use VPS will use this screen command
 ```bash
 screen -S Inichain
 ```
