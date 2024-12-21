@@ -36,9 +36,12 @@ screen -S Inichain
 `CTRL+A+D`
 # Check your miner activity
 Go to https://genesis-testnet.yatespool.com/
+
 ![image](https://github.com/user-attachments/assets/61bbaf2f-2612-4e95-bf96-1cbe837ebf7b)
 # Past your wallet address
 ![image](https://github.com/user-attachments/assets/0dc76d09-b45b-416f-9e6d-69566cf84242)
+
+
 #The rewards are automatically sent to your address.
 #You can check them on the explorer : https://genesis-testnet.iniscan.com/
 ![image](https://github.com/user-attachments/assets/e237861c-2ee5-4b5c-841b-e290475285a5)
